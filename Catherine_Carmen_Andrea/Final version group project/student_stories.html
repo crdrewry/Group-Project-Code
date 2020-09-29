@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Secular+One&display=swap" rel="stylesheet">
+</head>
+<body>   
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+#main.css div {
+    flex: 1;
+}
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #023047;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color:#023047;
+}
+
+.topnav a.active {
+  background-color: #fb8500;
+  color: white;
+}
+
+.navbar {
+  background-color: #023047;
+  overflow: hidden;
+  
+  bottom: 0;
+  width: 100%;
+}
+  .navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+
+  .container {
+  position: relative;
+  width: 50%; 
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+  
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffcb69;
+  font-size: 5px;
+}
+
+.text {
+  font-size: 5px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #023047;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+form {
+  text-align: center; 
+  }
+
+*, *:before, *:after {
+	box-sizing: border-box;
+  }
+
+  input[type=text1] {
+	padding:10px;
+	border:0;
+	border-radius: 30px 30px;
+	background: white;
+	width: 300px;
+	height: 30px;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
+
+  input[type=text2] {
+	padding:10px;
+	border:0;
+	border-radius: 30px 30px;
+	background: white;
+	width: 300px;
+	height: 30px;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
+
+
+  button {
+	/* usual styles */
+	padding:10px;
+	border:none;
+	border-radius: 30px 30px;
+	background-color:#023047;
+	color:#fff;
+	font-weight:500;
+	letter-spacing: 3px;
+	border-radius:5px;
+	width:23%;
+  }
+ 
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a href="fun_facts.html">Fun Facts</a>
+  <a class="active" href="student_stories.html">Student Stories</a>
+</div>
+
+<h1>Student Stories</h1>
+ <h2>Read what the team has to say about their experiences as students in the UK</h2>
+
+ 
+
+
+<h3>Andrea, Venezuela</h3>
+
+<div class="container">
+  <img class="catherine" src="img/Andrea.jpeg" style="width: 200px; height: 215px" class="image">
+  <div class="overlay">
+    <div class="text" style="width: fit-content" > I moved to the UK when I was 17. Moving to a country so different from mine, being without my parents for the first time, and figuring out a completely new education system have been the toughest situations I've faced. There were a lot of setbacks during my education here. Nevertheless, 3 years later, I can say I am starting university. It has been a difficult path, but I wouldn't have it any other way! There will be obstacles, but in the end, everything works out</div>
+  </div>
+</div>
+
+
+<h3>Carmen, Germany</h3>
+
+<div class="container">
+  <img class="catherine" src="img/Carmen.jpeg" style="width: 200px; height: 200px" class="image">
+  <div class="overlay">
+    <div class="text" style="width: fit-content"> When I came to study at UCL, I chose to stay with a host family to get to know local people, culture and also to save money. I stayed for free and helped with the kids, similar to Au Pair, only that I had my studies. Later on, I moved into a shared flat with other students and found that through a student accommodation provider. </div>
+  </div>
+</div>
+
+<h3>Catherine, USA</h3>
+
+<div class="container">
+  <img class="catherine" src="img/Catherine.jpeg" style="width: 200px; height: 250px" class="image">
+  <div class="overlay">
+    <div class="text" style="width: fit-content"> Even though I am American, I had indefinite leave to remain in the UK by the time I applied to university, meaning I got to be classed as a “home student” (cheaper fees!). This isn’t an intuitive system so make sure you know where you stand before you apply! Don’t feel like you are missing out because you haven’t signed up for loads of freshers events you’ve seen on facebook; it is best to wait til you arrive so reps can tell you what your uni’s/hall’s official events are.</div>
+  </div>
+</div>
+ 
+
+  <h4>Tell us your story</h4>
+  <div>
+    <form>
+        <h3>Sign up to our newsletter here:</h3><br>
+      <input type="text1" placeholder="Name" /><br><br>
+        <input type="text2" placeholder="Email address" /><br><br>
+        <button>Submit</button><br><br/>
+    </form>
+  </div>
+   
+
+  <div class="fixed footer">
+    <div class="container">Copyright &copy; 2020 CFG</div>
+</div>
+
+  <div class="navbar">
+    <a href="https://www.facebook.com" class="active"> <img class="footer" style="width:20px;height:20px;" src="img/Facebook-Logo.png"></a>
+    <a href="https://www.instagram.com" class="active"> <img class="footer" style="width:20px;height:20px;" src="img/Instagram-Logo.png"></a>
+    <a href="https://www.twitter.com" class="active"> <img class="footer" style="width:20px;height:20px;" src="img/Twitter-Logo.png"></a>
+  </div> 
+
+
+
+
+</body>
+</html>
+
+</body>

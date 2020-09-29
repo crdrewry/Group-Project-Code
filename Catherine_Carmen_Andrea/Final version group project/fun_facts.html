@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Study in the UK</title>
+  <link rel="stylesheet" type="text/css" href="./CSS/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Secular+One&display=swap" rel="stylesheet">
+  <script src="js/theDOM.js"></script>
+</head>
+
+<body>
+<style> #main.css div {
+  flex: 1;
+}
+body {
+margin: 0;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.topnav {
+overflow: hidden;
+background-color: #023047;
+
+}
+
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color:#023047;
+}
+
+.topnav a.active {
+background-color: #fb8500;
+color: white;
+}
+
+.navbar {
+background-color: #023047;
+overflow: hidden;
+
+bottom: 0;
+width: 100%;
+}
+.navbar a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+</style>
+
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a class="active" href="fun_facts.html">Fun Facts</a>
+  <a href="student_stories.html">Student Stories</a>
+</div>
+   <br>
+     <h1>Did you know?</h1>
+     <div><h2>Fun facts about the UK to help you learn a bit about the culture before you move. If you select the right option, it will turn green. If it turns red, give it another go!</h2></div>
+   <br>
+   <img style="width:550px;height:450px;padding-left:28%;" class="andrea" src="https://mcgannfacialdesign.com/wp-content/uploads/2017/09/Sports.jpg">
+   <br>
+   <form action="" class="facts">
+     <label>Which of these sports was invented in Scotland?</label>
+     <div><button id="wrongAnswer1" type="button">Rowing</button></div>
+     <div><button id="wrongAnswer2" type="button">Tennis</button></div>
+     <div><button id="rightAnswer1" type="button">Golf</button></div> <!--this one-->
+     <div><button id="wrongAnswer3" type="button">Football</button></div>
+   </form>
+   <br>
+   <img style="width:550px;height:450px;padding-left:28%;" class="andrea" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/the-royal-family-at-osborne-house-isle-ken-welsh.jpg">
+   <br>
+   <form action="" class="facts">
+     <label>How much money does the royal family bring in tourism per year?</label>
+     <div><button id="rightAnswer2" type="button">£550 million</button></div> <!--this one-->
+     <div><button id="wrongAnswer4" type="button">£725 million</button></div>
+     <div><button id="wrongAnswer5" type="button">£1.5 billion</button></div>
+     <div><button id="wrongAnswer6" type="button">£1.8 billion</button></div>
+   </form>
+   <br>
+   <img style="width:550px;height:450px;padding-left:28%;" class="andrea" src="https://images2.minutemediacdn.com/image/upload/c_crop,h_1165,w_2078,x_0,y_123/v1559320068/shape/mentalfloss/70705-istock-957174246.jpg?itok=HyLEw2Qj">
+   <br>
+   <form action="" class="facts">
+     <label>What's reffered to as the Big Ben?</label>
+     <div><button id="wrongAnswer7" type="button">The clock</button></div>
+     <div><button id="rightAnswer3" type="button">The bell</button></div> <!--this one-->
+     <div><button id="wrongAnswer8" type="button">The tower</button></div>
+     <div><button id="wrongAnswer9" type="button">The houses of parliament</button></div>
+  </form>
+  <br>
+  <img style="width:550px;height:450px;padding-left:28%;" class="andrea" src="https://cdn-b.william-reed.com/var/wrbm_gb_hospitality/storage/images/1/9/5/4/144591-1-eng-GB/Carlsberg-UK-consumer-research-pubs-and-bars_wrbm_large.jpg">
+  <br>
+  <form action="" class="facts">
+     <label>How many pubs are there in the UK?</label>
+     <div><button id="wrongAnswer10" type="button">25,000</button></div>
+     <div><button id="wrongAnswer11" type="button">35,760</button></div>
+     <div><button id="rightAnswer4" type="button">47,600</button></div> <!--this one-->
+     <div><button id="wrongAnswer12" type="button">48,925</button></div>
+  </form>
+  <br>
+  <img style="width:550px;height:450px;padding-left:28%;" class="andrea" src="https://d1sjtleuqoc1be.cloudfront.net/wp-content/uploads/2013/09/30093552/pin-map-shutterstock_95063479-3.jpg">
+  <br>
+  <form action="" class="facts">
+     <label>How many languages are spoken in London?</label>
+     <div><button id="wrongAnswer13" type="button">125</button></div>
+     <div><button id="wrongAnswer14" type="button">240</button></div>
+     <div><button id="wrongAnswer15" type="button">270</button></div>
+     <div><button id="rightAnswer5" type="button">300</button></div> <!--this one-->
+  </form>
+  <br>
+  <img style="width:550px;height:450px;padding-left:28%;" class="andrea" src="https://theday.co.uk/images/stories/2014/2014-07/2014-07-11_accents.png">
+  <br>
+  <form action="" class="facts">
+     <label>How often do accents change throughout England?</label>
+     <div><button id="wrongAnswer16" type="button">Every 10 miles</button></div>
+     <div><button id="wrongAnswer17" type="button">Every 15 miles</button></div>
+     <div><button id="wrongAnswer18" type="button">Every 20 miles</button></div>
+     <div><button id="rightAnswer6" type="button">Every 25 miles</button></div> <!--this one-->
+  </form>
+  <br>
+  <img style="width:550px;height:450px;padding-left:28%;" class="andrea" src="https://ssp-campaigns-tailor-uk.votenow.tv/9863403d5074f1abe127fa8171ba06df_0_465.jpeg">
+  <br>
+  <form action="" class="facts">
+     <label>What does "dodgy" mean?</label>
+     <div><button id="wrongAnswer19" type="button">Complicated</button></div>
+     <div><button id="rightAnswer7" type="button">Suspicious</button></div> <!--this one-->
+     <div><button id="wrongAnswer20" type="button">Insulting</button></div>
+     <div><button id="wrongAnswer21" type="button">Interesting</button></div>
+  </form>
+  <br>
+  <img style="width:550px;height:450px;padding-left:28%;" class="andrea" src="https://e3.365dm.com/20/06/768x432/skynews-teapot-cup-of-tea_5009575.jpg?20200609145957">
+  <br>
+  <form action="" class="facts">
+     <label>How many cups of tea are drunk in the UK per year?</label>
+     <div><button id="wrongAnswer22" type="button">132 million</button></div>
+     <div><button id="wrongAnswer23" type="button">147 million</button></div>
+     <div><button id="wrongAnswer24" type="button">158 million</button></div>
+     <div><button id="rightAnswer8" type="button">165 million</button></div> <!--this one-->
+  </form>
+  <br>
+  <img style="width:550px;height:450px;padding-left:28%;" class="andrea" src="https://i2-prod.mirror.co.uk/incoming/article21732791.ece/ALTERNATES/s1200/0_PAY-Grave-stones-UK-graveyard-cemetery-Memorial-tomb-stones-overdrove-poor-maintenance-old-covered-wee.jpg">
+  <br>
+  <form action="" class="facts">
+     <label>Which of these cities has had the most ghosts reported?</label>
+     <div><button id="rightAnswer9" type="button">York</button></div> <!--this one-->
+     <div><button id="wrongAnswer25" type="button">Glasgow</button></div>
+     <div><button id="wrongAnswer26" type="button">Newcastle</button></div>
+     <div><button id="wrongAnswer27" type="button">Winchester</button></div>
+  </form>
+  <br>
+  <img style="width:550px;height:450px;padding-left:28%;" class="andrea" src="https://www.thesun.co.uk/wp-content/uploads/2018/11/tp-image-christmas-montage.jpg">
+  <br>
+  <form action="" class="facts">
+     <label>Which of these shows, with over 30 million viewers, is the most watched in the UK?</label>
+     <div><button id="wrongAnswer28" type="button">The Great British Bake Off</button></div>
+     <div><button id="rightAnswer10" type="button">East Enders</button></div> <!--this one-->
+     <div><button id="wrongAnswer29" type="button">The Inbetweeners</button></div>
+     <div><button id="wrongAnswer30" type="button">Gavin and Stacey</button></div>
+  </form>
+  <br>
+
+  <div class="fixed footer">
+    <div class="container">Copyright &copy; 2020 CFG</div>
+</div>
+
+  <div class="navbar">
+    <a href="https://www.facebook.com" class="active"> <img style="width:20px;height:20px;" src="img/Facebook-Logo.png"></a>
+    <a href="https://www.instagram.com" class="active"> <img style="width:20px;height:20px;" src="img/Instagram-Logo.png"></a>
+    <a href="https://www.twitter.com" class="active"> <img style="width:20px;height:20px;" src="img/Twitter-Logo.png"></a>
+  </div> 
+
+</body>
+</html>

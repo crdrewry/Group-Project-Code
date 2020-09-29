@@ -1,0 +1,330 @@
+#main.css div {
+  flex: 1;
+}
+body {
+margin: 0;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.topnav {
+overflow: hidden;
+background-color: #023047;
+
+}
+
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color:#023047;
+}
+
+.topnav a.active {
+background-color: #fb8500;
+color: white;
+}
+
+.navbar {
+background-color: #023047;
+overflow: hidden;
+
+bottom: 0;
+width: 100%;
+}
+.navbar a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+
+body {
+    background-color:#8ecae6;#
+    opacity: 50%;
+    color: #004e98;
+	font-family: 'Noto Sans', sans-serif;
+	
+
+}
+h1 {
+    text-align:center;
+    color: #fb8500;
+    text-transform: uppercase;
+}
+h2 {
+    text-align: center;
+    color: #023047;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+h3 {
+    text-align: center; 
+    margin-left: 30%;
+    margin-right: 30%; 
+    color: #EBEBEB;
+}
+
+h4 {
+    text-align: center;
+    color: #023047;
+}
+
+
+form {
+    text-align: center;
+    color: #023047;
+    
+}
+
+.catherine {
+    text-align: center;
+    margin-left: 84%;
+}
+.overlay {
+    text-align: center;
+    margin-left: 50%;
+    font-size: small;
+    
+
+}
+.testcontainer {
+    float: center;
+}
+.testtext {
+    float: center;
+}
+.container {
+   &__image {
+float: left;
+    } 
+    p {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+form {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding: 50px;
+    display: inline 
+}
+
+.navbar {
+    float: center;
+}
+
+.container {
+    text-align: center;
+}
+
+
+
+h5 {
+	text-align:center;
+	padding-left: 28%;
+    color: lightblue;
+    font-style: italic;
+}
+
+.description: {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.facts {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 50px;
+}
+label {
+    font-weight: bold;
+}
+.andrea {
+    display: block;
+	margin-left: 84%;
+    max-width: 450px;
+	max-height: 450px;
+	
+}
+
+.quizDescription {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*Carmen CSS */
+
+/*Carmen box in text */ 
+.container {
+	position: relative;
+	width: 1200px;
+	height: 300px;
+	margin: 240px auto;
+	background: #000;
+}
+/* Carmen text animation starts here -- figure out how to center "to the UK"*/
+
+.animation1{
+	color: #ffb703;
+	font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+	letter-spacing: 8px;
+	margin-bottom: 30px;
+	position: relative;
+	animation: text 4s 1;
+}
+
+.animation2{
+	font-size: 30px;
+	color: #ffb703;;
+	position: relative;
+}
+
+@keyframes text {
+	0%{
+		color:#023047;
+		margin-bottom: -40px;
+	}
+	30%{
+		color: #219ebc;
+		letter-spacing: 25px;
+		margin-bottom: 40px;
+	}
+	85%{
+		color:#ffb703;
+		letter-spacing: 8px;
+		margin-bottom: -40px;
+	}
+}   
+
+/* marquee cannot style WHY is it not applying the color and different speed???*/ 
+
+
+.container{
+	text-align: center;
+	position: aboslut;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	color: whitesmoke;
+}
+
+.container span{
+	text-transform: uppercase;
+	display: block;	
+	margin-left: 85%;
+	margin-right: auto;
+}
+*{
+	padding: 0;
+	margin: 0;
+	color:white;
+
+}
+/* content boxes */
+
+.container1 {
+	position: relative;
+	width: 1200px;
+	height: 300px;
+	margin: 240px auto;
+}  
+.container1 .box
+{
+	position: relative;
+	width: calc(400px - 10px);
+	height: calc(300px - 30px);
+	background: #219ebc;
+	float: left;
+	margin: 5px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+	text-align: center; 
+}
+
+
+/* Container 2*/
+.container2 {
+	position: relative;
+	width: 1200px;
+	height: 300px;
+	margin: 20px auto;
+}  
+
+.container2 .box
+{
+	position: relative;
+	width: calc(400px - 10px);
+	height: calc(300px - 30px);
+	background: #219ebc;
+	float: left;
+	margin: 5px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+
+	
+}
+
+
+/* Carmen form starts here*/
+form {
+	text-align: center; 
+  }
+
+  input[type=text1] {
+	padding:10px;
+	border:0;
+	border-radius: 30px 30px;
+	background: white;
+	width: 300px;
+	height: 30px;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
+
+  input[type=text2] {
+	padding:10px;
+	border:0;
+	border-radius: 30px 30px;
+	background: white;
+	width: 300px;
+	height: 30px;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
+
+
+  button {
+	/* WHY is it not applying the color and size and border radius of t*/
+	padding:10px;
+	border:none;
+	border-radius: 30px 30px;
+	background-color: white;
+	color: #023047;
+	font-weight:500;
+	letter-spacing: 3px;
+	border-radius:30px;
+	width:13%;
+  }
+  

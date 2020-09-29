@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Secular+One&display=swap" rel="stylesheet">
+</head>
+<body>   
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+#main.css div {
+    flex: 1;
+}
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #023047;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color:#023047;
+}
+
+.topnav a.active {
+  background-color: #fb8500;
+  color: white;
+}
+
+.navbar {
+  background-color: #023047;
+  overflow: hidden;
+  
+  bottom: 0;
+  width: 100%;
+}
+  .navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+
+  .container {
+  position: relative;
+  width: 50%; 
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+  
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffcb69;
+  font-size: 5px;
+}
+
+.text {
+  font-size: 5px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #023047;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+form {
+  text-align: center; 
+  }
+
+*, *:before, *:after {
+	box-sizing: border-box;
+  }
+
+  input[type=text1] {
+	padding:10px;
+	border:0;
+	border-radius: 30px 30px;
+	background: white;
+	width: 300px;
+	height: 30px;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
+
+  input[type=text2] {
+	padding:10px;
+	border:0;
+	border-radius: 30px 30px;
+	background: white;
+	width: 300px;
+	height: 30px;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
+
+
+  button {
+	/* usual styles */
+	padding:10px;
+	border:none;
+	border-radius: 30px 30px;
+	background-color:#023047;
+	color:#fff;
+	font-weight:500;
+	letter-spacing: 3px;
+	border-radius:5px;
+	width:23%;
+  }
+ 
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="home.html">Home</a>
+  <a href="fun_facts.html">Fun Facts</a>
+  <a href="student_stories.html">Student Stories</a>
+</div>
+
+<!-- Carmen marquee -->
+
+    <marquee width="100%" direction="left" scrollamount="12" height="20px">
+      welcome - добро пожаловать - Wilkommen - bienvenue - Καλώς ήλθατε - bienvenidos - ようこそ - Dobrodošli - 欢迎 - benvenuto - welcome 
+      </marquee>
+    <marquee behavior="scroll" direction="right" scrollamount="12"> welcome - добро пожаловать - Wilkommen - bienvenue - Καλώς ήλθατε - bienvenidos - ようこそ - Dobrodošli - 欢迎 - benvenuto - welcome 
+      </marquee>
+
+ <!-- Carmen animation -->
+
+<!-- main body -->
+
+<h1>Welcome Students!</h1>
+ <h2>Start your new life as a student in the UK, but not before learning some tips and tricks</h2>
+
+
+<div class="container">
+  <img class="catherine" src="img/accommodation.jpg" style="width: 200px; height: 200px" class="image">
+  <div class="overlay">
+    <div class="text" style="width: fit-content" > Make sure you find the right place to stay! You can look for a <a href="https://www.spareroom.co.uk/">spare room</a>, or look for your <a href="https://www.idealflatmate.co.uk/ ">ideal flatmate</a>.
+		</div>
+  </div>
+</div>
+
+<br> 
+<br>
+
+<div class="container">
+  <img class="catherine" src="img/health.jpg" style="width: 200px; height: 200px" class="image">
+  <div class="overlay" >
+    <div href="https://google.co.uk" class="text" style="width: fit-content"> We suggest to immediately <a href="https://www.nhs.uk/live-well/healthy-body/getting-medical-care-as-a-student/"> register with a GP</a> (depending on your post code you can register with one close to uni or your local area) to avoid waiting times during the winter months when everyone gets sick.</div>
+  </div>
+</div>
+
+<br> 
+<br> 
+
+<div class="container">
+  <img class="catherine" src="img/bank.jpg" style="width: 200px; height: 200px" class="image">
+  <div class="overlay">
+    <div class="text" style="width: fit-content">Make the most of your money by signing up for a <a href="https://www.savethestudent.org/money/student-banking/student-bank-accounts.html">student bank account</a>, and using sites like <a href="https://www.myunidays.com/GB/en-GB">UniDays</a> for discounts. </div>
+  </div>
+</div>
+ 
+<br> 
+<br> 
+
+<div class="container">
+	<img class="catherine" src="img/sport.jpg" style="width: 200px; height: 200px" class="image">
+	<div class="overlay">
+	  <div class="text" style="width: fit-content">Join a sports club no matter whether you’re a newbie or you want to take part in higher-level competitive sports. There is <a href="https://www.thecompleteuniversityguide.co.uk/student-advice/where-to-study/university-sports-teams-and-elite-sports">something for everyone</a>. The easiest way to make new friends is in a team sport, especially on campus. </div>
+	</div>
+  </div>
+
+  <br> 
+<br> 
+
+<div class="container">
+	<img class="catherine" src="img/travel.jpg" style="width: 200px; height: 200px" class="image">
+	<div class="overlay">
+	  <div class="text" style="width: fit-content"> Getting a <a href="https://tfl.gov.uk/fares/free-and-discounted-travel/18-plus-student-oyster-photocard">student oyster</a> and <a href="https://www.16-25railcard.co.uk/">railcard</a> helps to save money, especially when you decide to visit cities and sights all over the country or travel across London regularly. Stay safe and use <a href="https://www.safeandthecity.com/">Safe & the City app</a> in London.  </div>
+	</div>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="container">
+	<img class="catherine" src="img/sightseeing.jpg" style="width: 200px; height: 200px" class="image">
+	<div class="overlay">
+	  <div class="text" style="width: fit-content">There are so many great places in the UK, lots of <a href="https://www.timeout.com/">day trips</a> or weekend adventures are organised by <a href="https://www.ukstudytours.com/">travel agencies</a> especially for students. If you want to explore the country on your own, trains and busses run across the country. </div>
+	</div>
+  </div>
+
+  <br> 
+<br> 
+
+  <h4>Enjoy your stay!</h4>
+  <div>
+    <form>
+        <h3>Sign up to our newsletter here:</h3><br>
+      <input type="text1" placeholder="Name" /><br><br>
+        <input type="text2" placeholder="Email address" /><br><br>
+        <button>Submit</button><br><br/>
+    </form>
+  </div>
+   
+
+  <div class="fixed footer">
+    <div class="container">Copyright &copy; 2020 CFG</div>
+</div>
+
+  <div class="navbar">
+    <a href="https://www.facebook.com" class="active"> <img style="width:20px;height:20px;" src="img/Facebook-Logo.png"></a>
+    <a href="https://www.instagram.com" class="active"> <img style="width:20px;height:20px;" src="img/Instagram-Logo.png"></a>
+    <a href="https://www.twitter.com" class="active"> <img style="width:20px;height:20px;" src="img/Twitter-Logo.png"></a>
+  </div> 
+
+
+
+
+</body>
+</html>
+
+</body>
